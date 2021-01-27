@@ -27,6 +27,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "This app is great to sell stuff you don't use anymore. Discardd allows you to exchange used items for cash. "
   }
 }
