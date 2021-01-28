@@ -8,8 +8,8 @@ function WelcomeScreen(props) {
                 <Image source={require('../assets/logo-red.png')} style={styles.logo} />
                 <Text style={styles.slogan}>Discard what you don't need for money!</Text>
             </View>
-            <View style={styles.loginButton} />
-            <View style={styles.registerButton} />
+            <View style={styles.loginButton} ><Text style={styles.btn}>Log In</Text></View>
+            <View style={styles.registerButton} ><Text style={styles.btn}>Register</Text></View>
 
         </ImageBackground>
     );
@@ -37,13 +37,20 @@ const styles = StyleSheet.create({
     loginButton: {
         width: '100%',
         height: 50,
-        backgroundColor: '#fc5c65'
+        backgroundColor: '#fc5c65',
+        alignItems: 'center',
     },
 
     registerButton: {
         width: '100%',
         height: 50,
         backgroundColor: '#4ecdc4',
+        alignItems: 'center',
+    },
+    btn: {
+        fontSize: 30,
+        color: 'white',
+
     }
 })
 
