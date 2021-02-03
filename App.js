@@ -12,9 +12,10 @@ export default function App() {
 
 
   return (
-    <WelcomeScreen />
 
-    // <ImageScreen />
+    // <WelcomeScreen />
+
+    <ImageScreen />
 
     // <SafeAreaView style={styles.container}>
     //   <Button title='hello' />
